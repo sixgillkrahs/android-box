@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700;800;900&display=swap');
 @import "tailwindcss";
 @import "../../node_modules/tw-animate-css/dist/tw-animate.css";
 
@@ -56,10 +55,10 @@
   --color-sidebar-accent-border: var(--sidebar-accent-border);
   --color-sidebar-ring: hsl(var(--sidebar-ring));
 
-  --font-sans: var(--app-font-sans);
-  --font-serif: var(--app-font-serif);
-  --font-mono: var(--app-font-mono);
-  --font-display: 'Montserrat', sans-serif;
+  --font-sans: var(--app-font-sans), sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: var(--app-font-mono), monospace;
+  --font-display: var(--app-font-display), sans-serif;
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -127,10 +126,6 @@
   --chart-3: 240 10% 30%;
   --chart-4: 240 5% 50%;
   --chart-5: 0 0% 98%;
-
-  --app-font-sans: 'Inter', sans-serif;
-  --app-font-serif: Georgia, serif;
-  --app-font-mono: Menlo, monospace;
 
   --radius: 0.75rem;
 
